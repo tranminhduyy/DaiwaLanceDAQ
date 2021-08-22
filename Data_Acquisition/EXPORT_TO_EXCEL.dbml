@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DAQ" Class="EXPORT_TO_EXCELDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TTBTECH;Initial Catalog=DAQ;Integrated Security=True" SettingsObjectName="Data_Acquisition1.Properties.Settings" SettingsPropertyName="DAQConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VARIABLE_DAQ" Member="VARIABLE_DAQs">
+    <Type Name="VARIABLE_DAQ">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DATE_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FREQUENCY_RICH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CURRENT_RICH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FREQUENCY_DELTA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CURRENT_DELTA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TYPE_OF_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="QUALITY_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ERROR_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CHIEU_DAI_SPLOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DUONG_KINH_ONG" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="BE_DAY" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CHIEU_DAI_CAT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MOTOR_SPEED" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DC_VOLT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DC_AMPE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_9" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_1_3" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_2" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_8_10" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_1B_2B" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_3B_4B" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_1A_2A" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_3A_4A" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_CAO_TREN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_CAO_DUOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_THAP_TREN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_THAP_DUOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DAILY" Member="DAILies">
+    <Type Name="DAILY">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DATE_TIME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FREQUENCY_RICH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CURRENT_RICH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FREQUENCY_DELTA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CURRENT_DELTA" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="TYPE_OF_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="QUALITY_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ERROR_PRODUCT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CHIEU_DAI_SPLOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DUONG_KINH_ONG" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="BE_DAY" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CHIEU_DAI_CAT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MOTOR_SPEED" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DC_VOLT" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DC_AMPE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_9" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_1_3" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_2" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="HEATER_8_10" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_1B_2B" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_3B_4B" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_1A_2A" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ZONE_3A_4A" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_CAO_TREN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_CAO_DUOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_THAP_TREN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="LOSAY_THAP_DUOI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

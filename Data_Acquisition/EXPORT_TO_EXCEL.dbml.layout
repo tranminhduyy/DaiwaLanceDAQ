@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.375" name="EXPORT_TO_EXCEL">
+  <DataContextMoniker Name="/EXPORT_TO_EXCELDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e79d40a-19c0-4ee0-a2bc-b6ac99788480" absoluteBounds="4.75, 2.875, 2, 6.1938297526041657">
+      <DataClassMoniker Name="/EXPORT_TO_EXCELDataContext/VARIABLE_DAQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="338c9eab-eba9-4788-a720-f10f824467cd" absoluteBounds="4.765, 3.335, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4bc037ac-feed-4b79-beb3-c4c9f7dfe85c" absoluteBounds="2.375, 1.625, 2, 6.1938297526041657">
+      <DataClassMoniker Name="/EXPORT_TO_EXCELDataContext/DAILY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ff3e899-1962-4c8c-97ca-7a746f087a8a" absoluteBounds="2.39, 2.085, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
